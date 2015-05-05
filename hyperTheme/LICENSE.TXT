@@ -1,0 +1,26 @@
+HYPERPOD, LLC END USER LICENSE AGREEMENT:
+
+IMPORTANT: THIS LICENSE AGREEMENT IS A 
+LEGAL AGREEMENT BETWEEN YOU (EITHER AN INDIVIDUAL OR, IF PURCHASED 
+OR OTHERWISE ACQUIRED BY OR FOR AN ENTITY, AN ENTITY) AND HYPERPOD, LLC. 
+READ IT CAREFULLY BEFORE INSTALLING THE THEME PROCESS AND USING IT ON YOUR WEB SITE. 
+IT PROVIDES A LICENSE TO USE THEME AND CONTAINS LIABILITY DISCLAIMERS. 
+BY INSTALLING THE THEME AND USING IT ON YOUR WEB SITE, 
+YOU ARE CONFIRMING YOUR ACCEPTANCE OF THE LICENSE AGREEMENT AND AGREEING TO BECOME 
+BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO BE BOUND BY 
+THESE TERMS, THEN DO NOT INSTALL THIS THEME OR USE IT ANYWHERE.
+
+This License Grants:
+
+1. You may not remove my copyright notice from this theme without permission. 
+2. You may not use any images from this theme somewhere else without permission. 
+3. If you convert this theme into another system, the converted theme must have my copyright. 
+4. Even if you modify this theme, it should contain our copyright with a link to www.webs1ite.com 
+5. The modified or original theme should not be available for download without my permission. 
+6. You may not remove the link in the footer [Design by: www.webs1te.com], without permission.
+
+LIMITATION OF LIABILITY:
+
+Hyperpod, LLC is not liable for any damages caused directly or indirectly as a result of
+using this theme.
+

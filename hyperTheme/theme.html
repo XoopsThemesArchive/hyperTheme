@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+	<div id="container">
+		<div id="banner"><div id="headerLeft"><a href="/"><img src="<{$xoops_imageurl}>/images/hyperTheme_01.jpg" alt="" width="235" height="70" align="middle" id="hyperTheme_01" /></a></div>
+	<div id="headerRight" align="center"><{$xoops_banner}></div>
+		</div>
+		<div class="footer"><div style="margin-top:4px;text-align:right; font-size:small;"><{$smarty.now|date_format:"%A, %B %e, %Y"}>&nbsp;&nbsp;&nbsp;</div></div>
+	  <div style="margin-top: 4px;">
+		  <{if $xoops_lblocks}>
+		  <div id="sidebar-a">
+			<!-- Start left blocks loop -->
+			<{foreach item=block from=$xoops_lblocks}>
+			  <{include file="hyperTheme/theme_blockleft.html"}>
+			<{/foreach}>
+			<!-- End left blocks loop -->
+		  </div>
+		  <{/if}>
+	  
+		<{if $xoops_rblocks}>
+		<div id="sidebar-b">
+		<!-- Start right blocks loop -->
+        <{foreach item=block from=$xoops_rblocks}>
+          <{include file="hyperTheme/theme_blockright.html"}>
+        <{/foreach}>
+        <!-- End right blocks loop -->
+		</div>
+		<{/if}>
+		<div style="border: 1px solid black;padding: 0px;margin:px; <{if $xoops_lblocks}>margin-left:168px;<{else}>margin-left:4px;<{/if}><{if $xoops_rblocks}>margin-right:178px;<{else}>margin-right:4px;<{/if}>">
+		<{if $xoops_showcblock == 1}>
+
+			 <{if $xoops_ccblocks}>
+				<div class="centerCcolumn">
+					<!-- Start center-center blocks loop -->
+					<{foreach item=block from=$xoops_ccblocks}>
+					  <{include file="hyperTheme/theme_blockcenter_c.html"}>
+					<{/foreach}>
+					<!-- End center-center blocks loop -->
+				</div>	
+			 <{/if}>
+			<{if $xoops_clblocks OR $xoops_crblocks}>
+				<div style="background-color:#ffffff;">
+					<div id="centerLcolumn">
+					<!-- Start center-left blocks loop -->
+					  <{foreach item=block from=$xoops_clblocks}>
+						<{include file="hyperTheme/theme_blockcenter_l.html"}>
+					  <{/foreach}>
+					<!-- End center-left blocks loop -->
+					</div>
+					<div id="centerRcolumn">
+					<!-- Start center-right blocks loop -->
+					  <{foreach item=block from=$xoops_crblocks}>
+						<{include file="hyperTheme/theme_blockcenter_r.html"}>
+					  <{/foreach}>
+					<!-- End center-right blocks loop -->
+					</div>
+				</div>
+			<{/if}>			 
+		<{/if}>
+		<{if $xoops_contents}>
+		<div class="blockTitle"></div>
+		<div id="content">
+          <{$xoops_contents}>
+		</div>
+		<{/if}>
+		
+		</div>
+	</div>
+	</div>
+	<div class="footer"><div style="margin-top:4px;font-size:small;text-align:center;">Copyright &copy; 2005 [Theme Design by <a href="http://www.webs1te.com">webs1te.com</a>]</div></div>
+<!-- All images used in this theme are Copyright © 2005 Daniel Hall / www.webs1te.com -->
+</body>
+</html>
